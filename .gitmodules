@@ -1,0 +1,15 @@
+[submodule "server"]
+	path = server
+	url = https://github.com/lineCode-swe/server
+[submodule "unit"]
+	path = unit
+	url = https://github.com/lineCode-swe/unit
+[submodule "ui"]
+	path = ui
+	url = https://github.com/lineCode-swe/ui
+[submodule "docs"]
+	path = docs
+	url = https://github.com/lineCode-swe/docs
+[submodule "sensors"]
+	path = sensors
+	url = https://github.com/lineCode-swe/sensors
