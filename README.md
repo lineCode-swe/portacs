@@ -38,7 +38,8 @@ Una volta lanciato lo script, le singole componenti vengono compilate e viene cr
 - Server
 - Sensors
 - Unit
-per avviare l'applicativo nella sua interezza.
+
+Per avviare l'applicativo nella sua interezza.
 Se si desidera simulare piú unità é sufficiente avviare container multipli.
 
 Per cancellare gli artefatti e le Docker image creati con l'istruzione precedenti:
