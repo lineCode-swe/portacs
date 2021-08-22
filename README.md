@@ -1,7 +1,7 @@
 ![gruppo lineCode](https://imagizer.imageshack.com/img923/557/86bUrf.png)
 
 # Portacs
-Applicativo 
+Applicativo sviluppato come attività progettuale per il corso di Ingegneria del Software dell'Università degli Studi di Padova sotto il nominativo di Progetto PORTACS.
 
 Le componenti che lo compongono sono:
 
