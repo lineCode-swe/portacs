@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "This script deletes every submodule artifact and related Docker images";
+echo;
+
+echo "STEP1: Deleting server artifacts";
+rm -rfv server/target;
+echo;
+
+echo "STEP2: Deleting UI artifacts";
+rm -rfv ui/dist;
+echo;
+
+echo "STEP3: Deleting unit artifacts";
+rm -rfv unit/build;
+echo;
+
+echo "STEP4: Deleting sensors artifacts";
+rm -fv sensors/main.js;
+echo;
+
+echo "STEP4: Deleting existing Docker images";
+docker image rm portacs-server portacs-unit portacs-ui portacs-sensors;
+echo;
+
+echo "Done. Bye!"
